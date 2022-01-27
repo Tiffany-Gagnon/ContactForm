@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contact Form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link href="/css/site.css" rel="stylesheet">
+</head>
+
+<body class="gradient">
+    <main>
+       <div class="container">
+           <!--Title-->
+           <h1 class="mt-5 text-center text-light">Contact Me</h1>
+           <div>
+                <form class="bg-light">
+                    <!--First and last name row-->
+                    <div class="row row-cols-2 gx-2">
+                        <div class="col-6"> 
+                            <div class="p-1">
+                                <label for="FirstName" class="form-label">First Name</label>
+                                <input type="text" id="FirstName" class="form-control" placeholder="First Name"> 
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-1">
+                                <label for="LastName" class="form-label">Last Name</label>
+                                <input type="text" id="LastName" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Email and Phone row-->
+                    <div class="row row-cols-2 gx-2">
+                        <div class="col-6">
+                            <div class="p-1">
+                                <label for="Email" class="form-label">Email Address</label>
+                                <input type="email" id="Email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-1">
+                                <label for="Phone" class="form-label">Phone Number(Optional)</label>
+                                <input type="tel" id="Phone" class="form-control" placeholder="Phone">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Subject-->
+                    <div class="row row-cols-1">
+                        <div class="col-12">
+                            <div class="p-1">
+                                <label for="Subject" class="form-label">Subject</label>
+                                <input type="text" id="Subject" class="form-control" placeholder="Subject">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Message-->
+                    <div class="row row-cols-1">
+                        <div class="col-12">
+                            <div class="p-1">
+                                <label for="Message" class="form-label">Message</label>
+                                <input type="text" id="Message" class="form-control" placeholder="Message">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Button-->
+                    <div class="row row-cols-1">
+                        <div class="col-12">
+                            <div class="p-1">
+                                <button class="btn btn-primary" type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+       </div>
+
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
