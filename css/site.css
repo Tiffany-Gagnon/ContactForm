@@ -1,5 +1,5 @@
 
-.gradient{
+.gradient{ /* can also use the body tag here in the css style sheet instead of creating a gradient class to add to the body tag in html*\
 
     background: #ff0084;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
